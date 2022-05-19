@@ -1,0 +1,6 @@
+@import "./src/styles/mixins/mixins";
+
+.cart {
+  display: flex;
+  flex-direction: column;
+}

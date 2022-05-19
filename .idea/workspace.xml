@@ -1,13 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2baec57c-f28b-4534-8bbb-10485d32a452" name="Changes" comment="" />
+    <list default="true" id="2baec57c-f28b-4534-8bbb-10485d32a452" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/cart/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cart/index.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/content-wrapper/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/content-wrapper/index.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout-header/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout-header/index.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/Layout.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/index.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/cart-page/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/cart-page/index.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/catalog-page/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/catalog-page/index.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/main-page/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/main-page/index.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/AppRouter.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/auth/authActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/auth/authReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/auth/authTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/cart/cartActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/cart/cartReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/cart/cartSelector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/cart/cartTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/global.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mixins/funtions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mixins/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/getCartTotal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="29HVRAVQNHv6QyBRnUdEI9uOJ4J" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -16,9 +60,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../de" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../React/devjobs-web-app" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Frontend\apteka\public\icons" />
+      <recent name="D:\Frontend\apteka\src\store" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Frontend\apteka\src" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -29,10 +83,27 @@
       <option name="presentableId" value="Default" />
       <updated>1652769987465</updated>
       <workItem from="1652769988717" duration="42000" />
+      <workItem from="1652770052720" duration="1706000" />
+      <workItem from="1652886814723" duration="6614000" />
+      <workItem from="1652894107310" duration="4201000" />
+      <workItem from="1652936899474" duration="5874000" />
+      <workItem from="1652960683029" duration="6296000" />
+      <workItem from="1652975275027" duration="4585000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

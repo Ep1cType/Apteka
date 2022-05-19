@@ -1,0 +1,21 @@
+@import "./src/styles/mixins/mixins";
+
+.steps {
+  background-color: #FFFFFF;
+  padding: 20px 30px;
+  margin-bottom: 30px;
+}
+
+.list {
+  background-color: #FFFFFF;
+  padding: 20px 30px;
+  margin-bottom: 30px;
+}
+
+.footer {
+  background-color: #FFFFFF;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
