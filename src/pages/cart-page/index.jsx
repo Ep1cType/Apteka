@@ -34,7 +34,7 @@ const CartPage = () => {
 
   return (
     <ContentWrapper>
-      <section>
+      <section className={s.section}>
         <h1>Корзина</h1>
         <Steps current={currentStep} className={s.steps}>
           <Steps.Step onClick={() => setCurrentStep(0)} title="Подтверждения заказа"/>
