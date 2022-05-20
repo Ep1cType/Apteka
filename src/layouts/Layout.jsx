@@ -5,10 +5,8 @@ import {Outlet} from "react-router";
 import "./index.styles.scss";
 
 //icons
-import LogoIcon from "../../src/icons/logo.svg";
-import {Header} from "antd/es/layout/layout";
-import ContentWrapper from "../components/content-wrapper";
 import LayoutHeader from "../components/layout-header";
+import LayoutFooter from "../components/layout-footer";
 
 const LayoutPage = () => {
   return (
@@ -17,9 +15,7 @@ const LayoutPage = () => {
       <main className="layout__main">
         <Outlet/>
       </main>
-      <footer className="layout__footer">
-        Heeeeqw
-      </footer>
+      <LayoutFooter />
     </div>
   );
 };

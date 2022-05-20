@@ -56,6 +56,12 @@ const MainPage = () => {
             )
           })}
         </Carousel>
+        <div className={s.promo__one}>
+          <img style={{maxWidth: '100%'}} src={"https://apteka-ot-sklada.ru/images/promo/74.jpg"}/>
+        </div>
+        <div className={s.promo__two}>
+          <img style={{maxWidth: '100%'}} src={"https://apteka-ot-sklada.ru/images/promo/92.jpg"}/>
+        </div>
       </section>
     </ContentWrapper>
   );

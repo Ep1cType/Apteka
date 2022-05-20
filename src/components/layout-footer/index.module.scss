@@ -1,0 +1,11 @@
+@import "./src/styles/mixins/mixins";
+
+.footer {
+  background-color: #bbe3ef;
+  flex-shrink: 0;
+}
+
+.content {
+  padding: 20px 30px;
+  display: flex;
+}

@@ -1,17 +1,16 @@
-import React, {useEffect} from "react";
+import React from "react";
 
 //styles
 import s from "./index.module.scss";
 import {Button, List} from "antd";
 import {useDispatch, useSelector} from "react-redux";
 import {cartActions} from "../../store/cart/cartActions";
-import {selectTotalPrice} from "../../store/cart/cartSelector";
 import {useNavigate} from "react-router";
 
 const Cart = () => {
   const dispatch = useDispatch();
-  const {cartList} = useSelector(state => state.cart);
   const navigation = useNavigate();
+  const {cartList} = useSelector(state => state.cart);
 
   const calculatePrice = (orders) => {
     if (orders === undefined) {
@@ -25,10 +24,6 @@ const Cart = () => {
     }
   };
 
-  const onAddItem = () => {
-    dispatch(cartActions.setItem({id: 1, count: 2, price: 250}));
-  };
-
   const onIncrementItem = (id) => {
     dispatch(cartActions.incrementItem(id));
   };
@@ -36,9 +31,6 @@ const Cart = () => {
   const onDecrementItem = (id) => {
     dispatch(cartActions.decrementItem(id));
   };
-
-  console.log(cartList)
-
 
   return (
     <>

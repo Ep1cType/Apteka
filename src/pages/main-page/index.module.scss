@@ -4,10 +4,27 @@
   margin-top: 30px;
   padding: 30px 10px;
   background-color: #FFFFFF;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.promo {
+  &__one {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+
+  &__two {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
 }
 
 .carousel {
-  width: 50%;
+  grid-column: span 2;
+  grid-row: span 2;
 }
 
 .select {
