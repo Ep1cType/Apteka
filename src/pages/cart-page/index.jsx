@@ -41,7 +41,7 @@ const CartPage = () => {
         <Steps current={currentStep} className={s.steps}>
           <Steps.Step onClick={() => setCurrentStep(0)} title="Подтверждения заказа"/>
           <Steps.Step onClick={() => setCurrentStep(1)} title="Оформление заказа"/>
-          <Steps.Step onClick={() => setCurrentStep(2)} title="Оплата"/>
+          <Steps.Step title="Оплата"/>
         </Steps>
         <div>
           {currentStep === 0 && (
