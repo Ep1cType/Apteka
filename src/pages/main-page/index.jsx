@@ -9,6 +9,7 @@ import ContentWrapper from "../../components/content-wrapper";
 import KoraBack from "../../images/kora.png";
 import TolerBack from "../../images/toler.png";
 import FaceBack from "../../images/face.png";
+import VichyBack from "../../images/vichy.png";
 
 const MainPage = () => {
   const sales = useMemo(
@@ -30,6 +31,12 @@ const MainPage = () => {
         title: "С заботой о себе",
         subtitle: "Аксессуары для вашей красоты",
         image: FaceBack,
+      },
+      {
+        id: 4,
+        title: "Скидка!",
+        subtitle: "Скидка 15% на солнцезащитные средства VICHY Capital Soleil",
+        image: VichyBack,
       },
     ],
     []

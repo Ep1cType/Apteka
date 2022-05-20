@@ -1,5 +1,5 @@
-import React, {useEffect, useState} from "react";
-import {Button, Card, Menu} from "antd";
+import React, {useState} from "react";
+import {Button, Card, Slider} from "antd";
 
 import s from "./index.module.scss";
 import ContentWrapper from "../../components/content-wrapper";
@@ -19,28 +19,35 @@ const CatalogPage = () => {
     dispatch(cartActions.setItem(item));
   };
 
-  useEffect(() => {
-
-  }, []);
-
   const onSearch = () => {
     setItemList(list.filter((el) => el.name.includes(input)));
+  };
+
+  const onPriceChange = (value) => {
+    setItemList(list.filter((el) => el.price >= value[0] && el.price <= value[1]));
   };
 
   return (
     <ContentWrapper>
       <div className={s.catalog}>
         <aside className={s.catalog__menu}>
+          <h2>Поиск</h2>
           <Search
+            style={{marginBottom: "20px"}}
             placeholder="Введите название"
             value={input}
             onChange={(event) => setInput(event.target.value)}
             onSearch={onSearch}
           />
-          <Menu
-            mode="vertical"
-            items={[{label: "hello"}]}
+          <h3>Поиск по цене</h3>
+          <Slider
+            defaultValue={[0, 1000]}
+            onAfterChange={onPriceChange}
+            max={1000}
+            range={{draggableTrack: true}}
+            step={10}
           />
+
         </aside>
         <section className={s.section}>
           <h1>Каталог товаров</h1>

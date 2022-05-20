@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2baec57c-f28b-4534-8bbb-10485d32a452" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/images/kora.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/pattern.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/toler.png" afterDir="false" />
+    <list default="true" id="2baec57c-f28b-4534-8bbb-10485d32a452" name="Changes" comment="feat: slider">
+      <change afterPath="$PROJECT_DIR$/src/images/vichy.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/index.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/index.styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/cart-page/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/cart-page/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/cart-page/index.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/cart-page/index.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/catalog-page/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/catalog-page/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/catalog-page/index.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/catalog-page/index.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/main-page/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/main-page/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/main-page/index.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/main-page/index.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/data.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +18,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -35,7 +40,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Goodbit Work/goodbit_client" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -63,7 +68,9 @@
       <workItem from="1652894107310" duration="4201000" />
       <workItem from="1652936899474" duration="5874000" />
       <workItem from="1652960683029" duration="6296000" />
-      <workItem from="1652975275027" duration="8251000" />
+      <workItem from="1652975275027" duration="8290000" />
+      <workItem from="1653026471880" duration="8000" />
+      <workItem from="1653055380648" duration="3195000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1652980131580</created>
@@ -72,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652980131580</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: slider">
+      <created>1652985611728</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1652985611728</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,6 +105,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="feat: slider" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: slider" />
   </component>
 </project>

@@ -5,9 +5,13 @@
   padding: 30px 0;
 
   &__menu {
+    top: 0;
     position: sticky;
     width: 270px;
     margin-right: 30px;
+    background-color: #FFFFFF;
+    max-height: 500px;
+    padding: 10px;
   }
 
   &__list {
