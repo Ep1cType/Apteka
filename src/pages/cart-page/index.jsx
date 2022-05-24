@@ -34,6 +34,11 @@ const CartPage = () => {
     }
   };
 
+  const onSubmitOrder = () => {
+    setCurrentStep(2);
+    dispatch(cartActions.clearCart());
+  };
+
   return (
     <ContentWrapper>
       <section className={s.section}>
@@ -95,7 +100,7 @@ const CartPage = () => {
               </div>
               <div className={s.footer}>
                 <Button type="link" onClick={() => setCurrentStep(0)}>Назад</Button>
-                <Button type="primary" disabled={!cartList.length} onClick={() => setCurrentStep(2)}>Оформить заказ</Button>
+                <Button type="primary" disabled={!cartList.length} onClick={onSubmitOrder}>Оформить заказ</Button>
               </div>
             </>
           )}

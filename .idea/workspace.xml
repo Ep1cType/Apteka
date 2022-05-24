@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2baec57c-f28b-4534-8bbb-10485d32a452" name="Changes" comment="fix: cart success">
+    <list default="true" id="2baec57c-f28b-4534-8bbb-10485d32a452" name="Changes" comment="feat: inputs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/cart-page/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/cart-page/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/cart/cartActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/cart/cartActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/cart/cartReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/cart/cartReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/cart/cartTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/cart/cartTypes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +70,9 @@
       <workItem from="1653055380648" duration="4432000" />
       <workItem from="1653062100025" duration="22000" />
       <workItem from="1653139753968" duration="23000" />
-      <workItem from="1653369779981" duration="695000" />
+      <workItem from="1653369779981" duration="762000" />
+      <workItem from="1653372409351" duration="12000" />
+      <workItem from="1653376863543" duration="229000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1652980131580</created>
@@ -104,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653059978334</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: inputs">
+      <created>1653370508456</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1653370508456</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +139,7 @@
     <MESSAGE value="feat: price filter" />
     <MESSAGE value="feat: footer content" />
     <MESSAGE value="fix: cart success" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: cart success" />
+    <MESSAGE value="feat: inputs" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: inputs" />
   </component>
 </project>

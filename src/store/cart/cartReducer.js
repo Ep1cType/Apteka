@@ -1,4 +1,4 @@
-import {DECREMENT_CART_ITEM, INCREMENT_CART_ITEM, REMOVE_CART_ITEM, SET_CART_ITEM} from "./cartTypes";
+import {CLEAR_CART, DECREMENT_CART_ITEM, INCREMENT_CART_ITEM, REMOVE_CART_ITEM, SET_CART_ITEM} from "./cartTypes";
 
 const initialState = {
   cartList: [],
@@ -11,7 +11,7 @@ export default function cartReducer(state = initialState, action) {
       const item = {
         ...action.payload,
         count: 1,
-      }
+      };
 
       return {
         ...state,
@@ -22,7 +22,7 @@ export default function cartReducer(state = initialState, action) {
       return {
         ...state,
         cartList: state.cartList.filter((item) => item.id !== action.payload.id)
-      }
+      };
     }
     case INCREMENT_CART_ITEM: {
       return {
@@ -41,6 +41,13 @@ export default function cartReducer(state = initialState, action) {
           }
           : item
         ).filter((item) => item.count > 0)
+      };
+    }
+    case CLEAR_CART: {
+      return {
+        ...state,
+        cartList: [],
+        totalPrice: 0
       };
     }
     default:

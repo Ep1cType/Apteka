@@ -1,4 +1,4 @@
-import {DECREMENT_CART_ITEM, INCREMENT_CART_ITEM, REMOVE_CART_ITEM, SET_CART_ITEM} from "./cartTypes";
+import {CLEAR_CART, DECREMENT_CART_ITEM, INCREMENT_CART_ITEM, REMOVE_CART_ITEM, SET_CART_ITEM} from "./cartTypes";
 
 
 export const cartActions = {
@@ -17,5 +17,8 @@ export const cartActions = {
   decrementItem: (id) => ({
     type: DECREMENT_CART_ITEM,
     payload: {id}
-  })
-}
+  }),
+  clearCart: () => (
+    {type: CLEAR_CART}
+  ),
+};
