@@ -72,14 +72,17 @@ const CartPage = () => {
                 <Timeline>
                   <Timeline.Item>
                     <h2>Данные покупателя</h2>
-                    <Input className={s.input__name} />
+                    <Input className={s.input__name} placeholder="Ф. И. О." />
                   </Timeline.Item>
-                  <Timeline.Item>
+                  <Timeline.Item style={{display: 'flex', flexDirection: 'column'}}>
                     <h2>Выберите способ получения</h2>
-                    <Radio.Group value={currentDel}>
+                    <Radio.Group value={currentDel} style={{marginBottom: '20px'}}>
                       <Radio.Button type="dashed" value={0} onClick={() => setCurrentDel(0)}>Самовывоз</Radio.Button>
                       <Radio.Button type="dashed" value={1} onClick={() => setCurrentDel(1)}>Доставка</Radio.Button>
                     </Radio.Group>
+                    {currentDel === 1 && (
+                      <Input style={{display: 'block', maxWidth: '350px'}} placeholder="Адрес доставки" />
+                    )}
                   </Timeline.Item>
                   <Timeline.Item>
                     <h2>Выберите способ оплаты</h2>

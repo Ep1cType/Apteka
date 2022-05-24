@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2baec57c-f28b-4534-8bbb-10485d32a452" name="Changes" comment="feat: footer content">
+    <list default="true" id="2baec57c-f28b-4534-8bbb-10485d32a452" name="Changes" comment="fix: cart success">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/cart-page/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/cart-page/index.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +34,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Goodbit Work/sna_client" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -63,7 +64,10 @@
       <workItem from="1652960683029" duration="6296000" />
       <workItem from="1652975275027" duration="8290000" />
       <workItem from="1653026471880" duration="8000" />
-      <workItem from="1653055380648" duration="4331000" />
+      <workItem from="1653055380648" duration="4432000" />
+      <workItem from="1653062100025" duration="22000" />
+      <workItem from="1653139753968" duration="23000" />
+      <workItem from="1653369779981" duration="695000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1652980131580</created>
@@ -93,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653059862819</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix: cart success">
+      <created>1653059978334</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1653059978334</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +126,7 @@
     <MESSAGE value="feat: slider" />
     <MESSAGE value="feat: price filter" />
     <MESSAGE value="feat: footer content" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: footer content" />
+    <MESSAGE value="fix: cart success" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: cart success" />
   </component>
 </project>
